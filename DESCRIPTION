@@ -1,9 +1,15 @@
 Package: crunchy
-Title: Can Run NetCDF Be Happy
-Version: 0.0.0.9000
+Title: Can Run NetCDF Happy
+Version: 0.0.1
 Authors@R: person("Michael", "Sumner", email = "mdsumner@gmail.com", role = c("aut", "cre"))
-Description: Checks whether it runs NetCDF.
+Description: Checks whether it runs NetCDF. CRUNCHY CRUNCY CRANCY CRAN. 
 Depends: R (>= 3.4.0)
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
+Suggests: testthat
+RoxygenNote: 6.0.1
+ByteCompile: true
+Imports: 
+     ncdf4, 
+     RNetCDF
